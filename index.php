@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Custom Payment Gateway
-Description: Custom payment gateway example
-Author: Lafif Astahdziq
-Author URI: https://lafif.me
+Plugin Name: Pagos via Transferencia de fondos en Venezuela
+Description: Pasarela fuera de linea para administrar pagos recibidos via Pago Móvil (P2P) o Transferencia de fondos.
+Author: José D. Gómez R.
+Author URI: https://josegomezr.com.ve
 */
 
 if ( ! defined( 'ABSPATH' ) ) {

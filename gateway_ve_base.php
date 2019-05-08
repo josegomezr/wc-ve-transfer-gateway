@@ -2,6 +2,7 @@
 
 class GateawayVEBase extends WC_Gateway_BACS {
     public $id = 'base_ve';
+    public $domain = 'woocommerce';
 
     public function __construct() {
         $this->_cached_exchange_rate = NULL;
