@@ -10,6 +10,11 @@ class GatewayP2PVE extends GateawayVEBase {
         $this->method_description = __( 'Maneje pagos via pagomovil interbancario en VE', 'woocommerce' );
     }
 
+    protected function account_number_name()
+    {
+    	return esc_html( 'Teléfono', 'woocommerce' );
+    }
+
     public function init_form_fields()
     {
         parent::init_form_fields();

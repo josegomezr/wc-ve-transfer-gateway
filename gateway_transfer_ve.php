@@ -9,6 +9,11 @@ class GatewayTransferVE extends GateawayVEBase {
         $this->method_description = __( 'Maneje pagos via transferencia de fondos en VE', 'woocommerce' );
     }
 
+    protected function account_number_name()
+    {
+    	return esc_html_e( 'Número de cuenta', 'woocommerce' );
+    }
+
     public function init_form_fields()
     {
         parent::init_form_fields();
